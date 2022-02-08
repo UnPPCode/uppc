@@ -47,7 +47,7 @@ public class DecompileFunc extends GhidraScript {
 	}
 
 	private void findFunction(ArrayList<DomainFile> programs) {
-        String path="F:\\ustc\\binary_decompile\\ghidra\\openssl_ghidra_json\\";
+        String path="F:\\binary_decompile\\ghidra\\openssl_ghidra_json\\";
 		for (DomainFile domainFile : programs) {
             if (monitor.isCancelled()) {
                 return;
